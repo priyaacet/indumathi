@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int a;
-scanf("%d",&a);
-if(a%2==0)
+int a,b;
+scanf("%d%d",&a,&b);
+if(a>b)
 {
 printf("the num is postive");
 }
