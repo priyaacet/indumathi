@@ -6,7 +6,7 @@ int s;
 scanf("%s%d",&p,&s);
 if(p>s)
 {
-printf(" vowel")
+printf(" vowel");
 }
 else
 {
