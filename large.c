@@ -18,7 +18,7 @@ printf("largest number");
 }
 else
 {
-printf("not largest number');
+printf("not largest number");
 }
 return 0;
 }
