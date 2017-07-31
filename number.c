@@ -6,7 +6,7 @@ int a,sum=0,i;
   for(i=0;i<a;i++)
   {
     sum=+i;
-    printf("natural number",&sum);
+    printf(&sum);
   }
   return 0;
 }
