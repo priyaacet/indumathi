@@ -2,19 +2,19 @@
 int main()
 {
 int a,b,c;
-scanf("%d%d%d",&a&b&c);
-printf("enter the numbers");
+scanf("%d%d%d",&a,&b,&c);
+printf("\n enter the numbers");
 if(a>b)
 {
-printf(" a is largest number");
+printf("\n  a is largest number");
 }
 elseif(b>c)
 {
-printf(" b is largest number");
+printf("\n b is largest number");
 }
 else
 {
-printf("c is  largest number");
+printf("\n c is  largest number");
 }
 return 0;
 }
