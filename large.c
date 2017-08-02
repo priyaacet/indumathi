@@ -8,7 +8,7 @@ if(a>b)
 {
 printf("\n  a is largest number");
 }
-elseif(b>c)
+else if(b>c)
 {
 printf("\n b is largest number");
 }
