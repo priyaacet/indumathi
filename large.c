@@ -12,14 +12,10 @@ elseif(b>c)
 {
 printf(" b is largest number");
 }
-elseif(a>c);
-{
-printf(" c is largest number");
-}
 else
 {
-printf("not largest number");
+printf("c is  largest number");
 }
 return 0;
 }
-   }
+   
