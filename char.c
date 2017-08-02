@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int n;
-scanf("%d",&n);
+int a, n;
+scanf("%d%d",&a,&n);
 char z[10];
 if(a<n<z)
 {
