@@ -5,12 +5,12 @@ class B
 {
 public static void main(String args[])
 {
-int i=5;
-int n=1;
-int fact;
+int n=5;
+int i;
+int fact=1;
 for(i=1;i<n;i++)
 {
-fact=fact*i;
+fact=i*fact;
 System.out.println("factorial is"+fact);
 }
 }
