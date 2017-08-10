@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-import java.net;
+import java.net.*;
 class C
 {
 public static void main(String args[])
