@@ -1,20 +1,18 @@
 import java.io.*;
 import java.util.*;
-import java.net.*;
 class C
 {
 public static void main(String args[])
 {
-int a;
+int b,c,i;
 Scanner a=new Scanner(System.in);
 b=a.nextInt();
-if(a%2=0)
+c=a.nextInt();
+for(i=b;i<=c;i++)
+
+if(i%2!=0)
 {
-System .out.println("1 between 100"+a);
+System .out.println(i);
 }
-  else
-  {
-    System.out.println("not odd  num"+a);
-  }
 }
 }
