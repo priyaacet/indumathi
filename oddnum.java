@@ -1,4 +1,4 @@
-imort java.io.*;
+import java.io.*;
 import java.util.*;
 import java.net;
 class C
