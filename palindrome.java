@@ -6,7 +6,7 @@ public static void main(String args[])
 {
 int r,sum=0,temp;
 int n;
-Scanner a=new Scanner(System.in)
+Scanner a=new Scanner(System.in);
 b=a.nextInt();
 temp=n;
   while(n!=0);
