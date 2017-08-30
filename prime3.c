@@ -1,16 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int l,h,i,flag;
-printf("\n enter prime number betweentwo intervals:");
-scanf("%d%d",&l,&h);
-printf("prime number between two intervals %d are %d:",l,h);
-while(l<h)
-{
-flag=0;
-for(i=2;i<=l/2;++i);
-{
- if(l % i == 0)
+    int low, high, i, flag;
+    printf("Enter two numbers(intervals): ");
+    scanf("%d %d", &low, &high);
+
+    printf("Prime numbers between %d and %d are: ", low, high);
+
+    while (low < high)
+    {
+        flag = 0;
+
+        for(i = 2; i <= low/2; ++i)
+        {
+            if(low % i == 0)
             {
                 flag = 1;
                 break;
@@ -18,9 +21,9 @@ for(i=2;i<=l/2;++i);
         }
 
         if (flag == 0)
-            printf("%d ", l);
+            printf("%d ", low);
 
-        ++l;
+        ++low;
     }
 
     return 0;
