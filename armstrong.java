@@ -4,17 +4,22 @@ class armstrong
 {
 public static void main(String args[])
 {
-int sum=0;temp,a,b;
-Scanner a=new Scanner(System.in);
-b=a.nextInt();
-b=temp;
-while(temp>0)
-{
-a=temp%10;
-temp=temp/10'
-sum=sum+a*a*a;
+int c=0,temp,a;
+  int n=123;
+  temp=n;
+  while(n>0)
+  {
+    a=n%10;
+    n=n/10;
+    c=c+(a*a*a);
+  }
+  if(temp==c)
+  {
+    System.out.println("armstrong");
+  }
+  else
+  {
+    System.out.println("not armstrong ");
+  }
 }
-System.out.println("armstrong"+sum);
 }
-}
-
