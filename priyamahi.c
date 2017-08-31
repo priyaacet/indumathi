@@ -10,6 +10,6 @@ printf("%c is alphat",c);
 }
   else
   {
-    printf("%c character",c);
+    printf("%c not alphat",c);
   }
 }
