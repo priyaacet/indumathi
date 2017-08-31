@@ -6,4 +6,10 @@ printf ("enter the character");
 scanf("%c",&c);
 if((c>='a'&& c<='z')||(c>='A'&& c<='Z'))
 {
-printf("
+printf("%c is alphat",c);
+}
+  else
+  {
+    printf("%c character",c);
+  }
+}
