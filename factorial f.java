@@ -1,16 +1,16 @@
 import java.io.*;
 import java.util.*;
-class fact
+class factorial
 {
   public static void main(String args[])
   {
 int i;
-fac=1;
+ int fact=1;
 int n=5;
 for(i=1;i<=n;i++)
 {
 fact=fact*i;
 }
-System.ou.println("factorial is"+fact);
+System.out.println("Factorial of "+n+" is: "+fact);   
 }
 }
