@@ -1,31 +1,29 @@
 import java.io.*;
 import java.util.*;
-class primerange
+class Prime
 {
-public static void main(String args[])
-{
-int n1=1,n2=10;
-int flag=0,i,j;
-System.out.println("enter the prime number for given range");
-for(i=n1;i<=n2;i++)
-{
-for(j=n1;j<i,j++)
-{
-if(i%j==0)
-{
-flag=0;
-break;
+    public static void main(String args[])
+    {
+         int s1=2, s2=10, s3, flag = 0, i, j;
+         System.out.println ("The prime numbers in between the entered limits are :");
+         for(i = s1; i <= s2; i++)
+         {
+             for( j = 2; j < i; j++)
+             {
+                 if(i % j == 0)
+                 {
+                     flag = 0;
+                     break;
+                 }
+                 else
+                 {
+                     flag = 1;
+                 }
+             }
+             if(flag == 1)
+             {
+                 System.out.println(i);
+             }
+         }
+    }
 }
-else
-{
-flag=1;
-}
-}
-if(flag==1)
-{
-System.out.println(i);
-}
-}
-}
-}
-
