@@ -4,7 +4,7 @@ int main()
 long long n;
 int count=0;
 printf("enter the number og integer");
-scanf(%lld",&n);
+scanf("%lld",&n);
 while(n!=0)
 {
 n/=10;
