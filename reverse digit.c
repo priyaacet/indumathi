@@ -9,5 +9,6 @@ while(temp>o)
 {
 re=temp/10;
 rev=rev*10+re
-temp/=10;printf("The reverse of %d is %d.", number, reverse);
+temp/=10;
+printf("The reverse of %d is %d.", number, reverse);
 }
